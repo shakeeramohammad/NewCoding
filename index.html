@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ShopEasy</h1>
+    <div class="cart">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <div class="product-list" id="product-list">
+      <!-- Products will be inserted here dynamically -->
+    </div>
+  </main>
+
+  <aside class="cart-sidebar" id="cart-sidebar">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: ₹<span id="cart-total">0</span></p>
+    <button id="close-cart">Close</button>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
